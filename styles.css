@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    padding: 20px;
+    overflow-y: scroll; /* Ensure vertical scrolling */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ff007f;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #ff007f;
+    font-size: 2em;
+}
+
+.league, .logo {
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 40px; /* Increased margin for more space */
+}
+
+.left-panel .match-result, .aimdex-kpi, .player-dmi, .mom-top3,
+.right-panel .lineup, .dap-timeline, .last-three-games {
+    background-color: #1a1a1a;
+    padding: 40px; /* Increased padding for more space */
+    margin-bottom: 40px; /* Increased margin for more space */
+    border-radius: 5px;
+    min-height: 300px; /* Ensure enough height for images */
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ff007f;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.content {
+    text-align: center;
+    font-size: 1.5em;
+    color: #cccccc;
+    margin-top: 20px;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.home {
+    color: #ff0000;
+}
+
+.away {
+    color: #0000ff;
+}
+
+.halves {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: 1em;
+    color: #cccccc;
+    margin-bottom: 10px;
+}
